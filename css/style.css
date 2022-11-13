@@ -33,6 +33,7 @@ h1 {
 }
 
 h2 {
+  
   font-size: 5.1em;
   line-height: 1em;
   letter-spacing: .03em;
@@ -49,7 +50,7 @@ h3 {
 h4 {
   font-weight: normal;
   font-size: .7em;
-  letter-spacing: .4em;
+  letter-spacing: .3em;
   margin-bottom: 9px;
   line-height: 1em;
 }
@@ -102,9 +103,15 @@ img {
   text-align: center;
   padding: 130px 35px 35px;
 }
+#element1{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
 
 #title-box {
-  width: 252px;
+  width: fit-content;
   height: 165px;
   background: rgba(247,211,27,1);
   margin-left: 163px;
